@@ -45,18 +45,18 @@ import ParamourDesktop from '../../assets/portfolio/desktop/image-paramour.jpg'
 import './style.css'
 
 export function Portfolio() {
-    const [seraph,setSeraph] = useState('')
-    const [eebox,setEebox] = useState('')
-    const [federal,setFederal] = useState('')
-    const [delsol,setDelSol] = useState('')
-    const [prototype,setPrototype] = useState('')
-    const [tower,setTower] = useState('')
-    const [grandHotel,setGrandHotel] = useState('')
-    const [hypers,setHypers] = useState('')
-    const [sxiv,setSxiv] = useState('')
-    const [bank,setBank] = useState('')
-    const [paramour,setParamour] = useState('')
-    const [netcry,setNetCry] = useState('')
+    const [seraph,setSeraph] = useState(SeraphStationTablet)
+    const [eebox,setEebox] = useState(EeBoxTablet)
+    const [federal,setFederal] = useState(FederalTowerTablet)
+    const [delsol,setDelSol] = useState(ProjectDelSolTablet)
+    const [prototype,setPrototype] = useState(ProjectDelSolTablet)
+    const [tower,setTower] = useState(Tower228bTablet)
+    const [grandHotel,setGrandHotel] = useState(GrandHotemTablet)
+    const [hypers,setHypers] = useState(HypersTablet)
+    const [sxiv,setSxiv] = useState(SXIVTowerTablet)
+    const [bank,setBank] = useState(TrinityBankTablet)
+    const [paramour,setParamour] = useState(ParamourTablet)
+    const [netcry,setNetCry] = useState(NetcryToweTablet)
 
     const [screenSize, getDimension] = useState(760);
       const setDimension = () => {

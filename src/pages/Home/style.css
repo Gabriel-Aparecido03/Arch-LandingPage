@@ -273,4 +273,8 @@
         width: 80%;
         margin-inline: auto;
     }
+
+    .home-container-component-about-us {
+        margin-top: 20%;
+    }
 }
