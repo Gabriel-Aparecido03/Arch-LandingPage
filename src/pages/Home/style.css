@@ -223,6 +223,7 @@
         height: 80vh;
         margin-top: 5%;
         align-items: flex-start;
+        margin-bottom: 5%;
     }
 
     .home-container-showing-all-project {
